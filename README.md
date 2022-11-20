@@ -13,6 +13,8 @@ A vote is counted as normal but with an additional step of encrypting the vote c
 
 ballottest.py should be fairly self-evident as the basic set of functions required to generate, validate, and “count” votes in this system. Counting of the actual votes themselves is left out of the POC as I was focused on conceptually validating the use of printed QR codes and key pairs for the purposes of demonstrating solutions to the “other” problems around paper ballot election integrity.
 
+Please feel free to use this code and concept for any purpose you wish have fun and maybe make the world a better place.
+
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
