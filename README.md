@@ -1,7 +1,7 @@
 # ballots
 Python PoC of a cryptographically verifiable paper voting system
 
-IMPORTANT DISCLAIMER: This was a weekend project. It may contain serious flaws which make it fit for no purpose other than experimentation and novelty. Please do not use it at scale or in the real world without proper due-diligence. I am also aware of the presence of public and private keys in this repository. You shouldn’t use those keys. There are also a host of other security issues present here such as leaking of all of the ballot private keys to the file system during the ballot rendering process. That is bad.
+IMPORTANT DISCLAIMER: This was a weekend project. It may contain serious flaws which make it fit for no purpose other than experimentation and novelty. Please do not use it at scale or in the real world without proper due-diligence. I am also aware of the presence of public and private keys in this repository. You shouldn’t use those keys. There are a number of other security issues present here such as leaking of all of the ballot private keys to the file system during the ballot rendering process. That is bad.
 
 This is a proof of concept experimental implementation of a paper ballot voting system which attempts to solve for some problems associated with current methods of verifying the legitimacy of ballot voting systems. The main goal of the project is to create a paper ballot which is auditable, verifiable (by the voter), tamper evident, and protected from the possibility of counterfeit ballot printing. Most importantly, the system preserves the secrecy and anonymity of the individual vote.
 
